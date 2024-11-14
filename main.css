@@ -28,7 +28,6 @@ h1, h2, h3 {
   color: var(--heading-color);
 }
 
-
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -36,39 +35,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-/* Round image style */
-.round-image-container {
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0;
-}
-.round-image {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 30vw;
-  height: 30vw;
-  max-width: 100px;
-  max-height: 100px;
-  border: 3px solid var(--heading-color);
-}
-
-
-/* Optional: Add a subtle border to sections */
-section {
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-/* Optional: Style for code blocks */
-pre, code {
-  background-color: #1e1e1e;
-  border-radius: 0.25rem;
-  padding: 0.625rem;
-  overflow-x: auto;
-}
-
 
 /* Media Queries for Responsiveness */
 @media screen and (min-width: 768px) {
@@ -106,5 +72,36 @@ pre, code {
     width: 150px;
     height: 150px;
   }
+}
+
+/* Optional: Add a subtle border to sections */
+section {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Optional: Style for code blocks */
+pre, code {
+  background-color: #1e1e1e;
+  border-radius: 0.25rem;
+  padding: 0.625rem;
+  overflow-x: auto;
+}
+
+/* Optional: Round image style */
+.round-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.round-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 30vw;
+  height: 30vw;
+  max-width: 100px;
+  max-height: 100px;
+  border: 3px solid var(--heading-color);
 }
 
