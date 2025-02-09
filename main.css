@@ -74,14 +74,14 @@ a:hover {
   }
 }
 
-/* Optional: Add a subtle border to sections */
+/* Add a subtle border to sections */
 section {
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-/* Optional: Style for code blocks */
+/* Style for code blocks */
 pre, code {
   background-color: #1e1e1e;
   border-radius: 0.25rem;
