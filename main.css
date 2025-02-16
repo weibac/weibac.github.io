@@ -45,32 +45,17 @@ a:hover {
   header, main, footer {
     max-width: 80%;
   }
-
-  .round-image {
-    width: 30vw;
-    height: 30vw;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   header, main, footer {
     max-width: 70%;
   }
-
-  .round-image {
-    width: 20vw;
-    height: 20vw;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   header, main, footer {
     max-width: 60%;
-  }
-
-  .round-image {
-    width: 150px;
-    height: 150px;
   }
 }
 
