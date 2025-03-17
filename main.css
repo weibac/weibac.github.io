@@ -1,10 +1,10 @@
-/* Dark mode styles */
+/* Everforest https://github.com/sainnhe/everforest */
 :root {
-  --bg-color: #202020;
-  --text-color: #e0e0e0;
-  --link-color: #bb86fc;
-  --heading-color: #03dac6;
-  --border-color: #333333;
+  --bg-color: #2D353B;
+  --text-color: #D3C6AA;
+  --link-color: #7FBBB3;
+  --heading-color: #A7C080;
+  --border-color: #4F585E;
 }
 
 body {
