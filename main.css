@@ -23,7 +23,7 @@ body {
 /* Only load background image on larger screens */
 @media screen and (min-width: 768px) {
   body {
-    background-image: url('assets/fog_forest_1.png');
+    background-image: url('assets/fog_forest_1.avif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
