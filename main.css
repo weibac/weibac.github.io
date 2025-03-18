@@ -9,6 +9,7 @@
   --window-border: #4F585E;
 }
 
+/* Base styles without background image */
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -17,11 +18,16 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  background-image: url('assets/fog_forest_1.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   height: 100vh;
+}
+/* Only load background image on larger screens */
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url('assets/fog_forest_1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
 
 .window-container {
@@ -67,13 +73,11 @@ a:hover {
     width: 80%;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .window {
     width: 70%;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .window {
     width: 60%;
@@ -86,16 +90,14 @@ a:hover {
     width: 95%;
     padding: 1rem;
   }
-  body {
-    font-size: 15px;
-  }
   /* Position window closer to top on mobile */
   .window-container {
     padding: 0;
     align-items: flex-start;
   }
-  /* Add some minimal top padding */
+  /* Add some minimal top padding and remove shadow */
   .window {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: none;
   }
 }
