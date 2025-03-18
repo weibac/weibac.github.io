@@ -3,5 +3,5 @@
   <circle cx="32" cy="32" r="32" fill="#2D353B"/>
   
   <!-- Lowercase 'w' in monospace style using the heading color -->
-  <text x="32" y="42" font-family="monospace" font-size="36" font-weight="bold" fill="#A7C080" text-anchor="middle">w</text>
+  <text x="32" y="44" font-family="monospace" font-size="42" font-weight="bold" fill="#A7C080" text-anchor="middle">w</text>
 </svg>
