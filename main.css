@@ -64,6 +64,33 @@ a:hover {
   text-decoration: underline;
 }
 
+
+/* Navigation lists styling */
+.nav-section {
+  margin: 1.5rem 0;
+}
+
+.navlists-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.navlist h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.navlist ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+
+
+
+
 /* Media Queries for Responsiveness */
 @media screen and (min-width: 768px) {
   body {
@@ -99,5 +126,9 @@ a:hover {
   .window {
     margin-top: 1rem;
     box-shadow: none;
+  }
+  .navlists-container {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
